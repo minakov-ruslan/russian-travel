@@ -1,0 +1,27 @@
+.place__title {
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 1.06;
+  margin: 0;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .place__title {
+    font-size: calc(72px - (72 - 42) * (1024px - 100vw) / (1024 - 769));
+    line-height: calc(76px - (76 - 46) * (1024px - 100vw) / (1024 - 769));
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .place__title {
+    word-wrap: break-word;
+    font-size: calc(42px - (42 - 32) * (768px - 100vw) / (768 - 320));
+    line-height: calc(46px - (46 - 35) * (768px - 100vw) / (768 - 320));
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 599px) {
+  .place__title {
+    margin: 0 calc(0px + (16 - 0) * (599px - 100vw) / (599 - 320)) 0;
+  }
+}
