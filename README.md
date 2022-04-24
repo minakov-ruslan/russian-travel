@@ -13,4 +13,4 @@
 * позиционирование элеметов, 
 * продвинутая семантика языка HTML.  
   
-[ Ссылка на проект GitHub]()
+[ Ссылка на проект GitHub](https://minakov-ruslan.github.io/russian-travel/index.html)
